@@ -13,7 +13,7 @@ public class LinkedBasedQueue implements ILinkedBased {
 	}
 	private Node head, tail;
 	private int size;
-	private LinkedBasedQueue() {
+	public LinkedBasedQueue() {
 		this.head = null;
 		this.tail = null;
 		this.size = 0;
