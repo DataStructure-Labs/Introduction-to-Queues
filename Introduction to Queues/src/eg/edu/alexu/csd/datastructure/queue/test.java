@@ -3,7 +3,8 @@ package eg.edu.alexu.csd.datastructure.queue;
 public class test {
 
 	public static void main(String[] args) {
-		LinkedBasedQueue l = new LinkedBasedQueue();
+		//LinkedBasedQueue l = new LinkedBasedQueue();
+		ArrayBasedQueue l = new ArrayBasedQueue(10);
 		l.enqueue("ahmed");
 		l.enqueue(2000);
 		l.enqueue("khaled");
