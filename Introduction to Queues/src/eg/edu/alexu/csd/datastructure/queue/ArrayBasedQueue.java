@@ -38,12 +38,5 @@ public class ArrayBasedQueue implements IArrayBased{
     public int size() {
         return (length-front+rear)%length;
     }
-    
-    public void Print(){
-        for(int i=front; ((front!=rear)&&i!=rear)||((front==rear)&&front!=(rear)); i=(i+1)%length){
-            System.out.print(Queue[i]+" ");
-        }
-        System.out.println("");
-    }
 
 }
